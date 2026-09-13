@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>New Product Created</title>
+</head>
+
+<body style="
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+">
+
+    <div style="
+        width: 100%;
+        padding: 40px 0;
+        background-color: #f4f6f8;
+    ">
+
+        <!-- Email Container -->
+        <div style="
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        ">
+
+            <!-- Header -->
+            <div style="
+                background-color: #111827;
+                padding: 30px;
+                text-align: center;
+            ">
+
+                <h1 style="
+                    margin: 0;
+                    color: #ffffff;
+                    font-size: 28px;
+                ">
+                    🚀 New Product Alert
+                </h1>
+
+                <p style="
+                    margin: 10px 0 0;
+                    color: #d1d5db;
+                    font-size: 14px;
+                ">
+                    A new product has been added to your inventory
+                </p>
+
+            </div>
+
+
+            <!-- Main Content -->
+            <div style="
+                padding: 35px;
+            ">
+
+                <h2 style="
+                    margin-top: 0;
+                    color: #111827;
+                    font-size: 22px;
+                ">
+                    New Product Created
+                </h2>
+
+                <p style="
+                    color: #4b5563;
+                    font-size: 15px;
+                    line-height: 1.6;
+                ">
+                    Hello Admin,
+                </p>
+
+                <p style="
+                    color: #4b5563;
+                    font-size: 15px;
+                    line-height: 1.6;
+                ">
+                    A new product has been successfully created
+                    in your inventory management system.
+                </p>
+
+
+                <!-- Product Card -->
+                <div style="
+                    margin-top: 25px;
+                    padding: 25px;
+                    background-color: #f9fafb;
+                    border: 1px solid #e5e7eb;
+                    border-radius: 10px;
+                ">
+
+                    <p style="
+                        margin: 0 0 12px;
+                        color: #6b7280;
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                    ">
+                        Product Details
+                    </p>
+
+
+                    <!-- Product Name -->
+                    <p style="
+                        margin: 10px 0;
+                        color: #111827;
+                        font-size: 17px;
+                    ">
+                        <strong>Product Name:</strong>
+                        {{PRODUCT_NAME}}
+                    </p>
+
+
+                    <!-- Product Price -->
+                    <p style="
+                        margin: 10px 0;
+                        color: #111827;
+                        font-size: 17px;
+                    ">
+                        <strong>Price:</strong>
+                        ₦{{PRODUCT_PRICE}}
+                    </p>
+
+                </div>
+
+
+                <!-- Button -->
+                <div style="
+                    text-align: center;
+                    margin-top: 30px;
+                ">
+
+                    <a href="#"
+                       style="
+                           display: inline-block;
+                           padding: 13px 25px;
+                           background-color: #111827;
+                           color: #ffffff;
+                           text-decoration: none;
+                           border-radius: 6px;
+                           font-size: 14px;
+                           font-weight: bold;
+                       ">
+
+                        View Product
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer -->
+            <div style="
+                padding: 20px 30px;
+                background-color: #f9fafb;
+                border-top: 1px solid #e5e7eb;
+                text-align: center;
+            ">
+
+                <p style="
+                    margin: 0;
+                    color: #6b7280;
+                    font-size: 12px;
+                ">
+                    This is an automated notification.
+                </p>
+
+                <p style="
+                    margin: 8px 0 0;
+                    color: #9ca3af;
+                    font-size: 12px;
+                ">
+                    © 2026 Inventory Management System
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
